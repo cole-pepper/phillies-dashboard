@@ -17,7 +17,7 @@ df = pd.read_csv(
     'a9f9e8076b837d541398e999dcbac2b2826a81f8/'+
     'gdp-life-exp-2007.csv')
 
-df2 = pd.read_csv("spin_evaluation.csv").iloc[:, 1:3]
+df2 = pd.read_csv("https://github.com/colestriler/phillies-dashboard/blob/master/spin_evaluation.csv").iloc[:, 1:3]
 columns = [i for i in df2.columns.values]
 
 def generate_table(dataframe, max_rows=10):
